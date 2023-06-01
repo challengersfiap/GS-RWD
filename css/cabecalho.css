@@ -21,6 +21,7 @@
     list-style: none;
 
     display: flex;
+    justify-content: space-around;
 }
 
 .cabecalho ul li{
@@ -29,5 +30,9 @@
 }
 
 .cabecalho ul li:nth-child(-n+3){
-    margin-right: 20px;
+    margin-right: 10px; 
+}
+
+.cabecalho ul li:nth-child(-n+3)::after{
+    content: "|";
 }
