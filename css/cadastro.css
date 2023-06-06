@@ -34,10 +34,7 @@ body {
     margin-bottom: 10px;
 }
 
-.formulario input[type="submit"],
-.formulario input[type="reset"] {
-    /* float: left;
-    align-items: center; */
+.formulario input[type="submit"]{
     font-size: 18px;
     background-color: var(--secundaria);
     color: #fff;
@@ -49,3 +46,30 @@ body {
     width: 100px;
 }
 
+footer {
+    background-color: var(--primaria);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+  
+footer h2 {
+    margin-bottom: 10px;
+}
+  
+footer div {
+    display: flex;
+    justify-content: center;
+}
+  
+footer div > div {
+    margin: 0 20px;
+}
+  
+footer p {
+    margin: 0;
+}
