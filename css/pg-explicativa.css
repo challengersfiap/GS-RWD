@@ -1,5 +1,9 @@
 /* Criei esse arquivo para ele estilizar a parte de cima (como contém um padrão) das páginas de cultivo, ia e agicultura sustentavel */
 
+body{
+    background-color: var(--background);
+}
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -25,3 +29,9 @@
 .banner > *:last-child {
     margin-bottom: 10px;
 }
+
+.conteudo h2{
+    font-size: 30px;
+    color: var(--secundaria);
+}
+
