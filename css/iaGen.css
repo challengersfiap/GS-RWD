@@ -1,17 +1,19 @@
-.conteudo-agro {
+.conteudo-ia {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 30px;
 }
 
-.conteudo-agro h2 {
+.conteudo-ia h2 {
     color: var(--secundaria);
-    font-size: 3.5rem;
+    font-size: 3rem;
+    text-align: center;
     margin: 30px 0;
 }
 
-.container-agro {
+.container-ia {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,33 +22,19 @@
     margin-bottom: 50px;
 }
 
-.container-agro div {
+.container-ia div {
     width: 300px;
 
     text-align: center;
 }
 
-.container-agro div h3 {
+.container-ia div h3 {
     color: var(--secundaria);
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-.container-agro div p {
+.container-ia div p {
     color: #FFFFFF;
     font-size: 1.8rem;
-}
-
-.card {
-    background-color: var(--primaria);
-    border-radius: 25px;
-    margin-bottom: 20px;
-}
-
-.card img {
-    width: 300px;
-}
-
-.card h3,.card p {
-    margin: 20px;
 }
