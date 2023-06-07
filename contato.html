@@ -17,6 +17,7 @@
                 <li> <a href="./IaGen.html">IA Generativa</a> </li>
                 <li> <a href="./cultivo.html">Cultivo Eficiente</a> </li>
                 <li> <a href="./NossaSolucao.html">Solução</a> </li>
+                <li> <a href="./login.html">Login</a> </li>
             </ul>
         </nav>
     </header>
@@ -31,7 +32,7 @@
             </div>
             <div>
                 <label for="datanascimento">Data de Nascimento</label>
-                <input type="text" id="datanascimento">
+                <input type="date" id="datanascimento">
             </div>
             <div>
                 <label for="email">Email</label>
@@ -55,16 +56,19 @@
             </div>
             <div>
                 <label for="assunto">Assunto</label>
-                <input type="text" id="assunto">
+                <select name="assunto" id="assunto">
+                    <option value="Feedback">Feedback</option>
+                    <option value="Parceria">Parceria</option>
+                    <option value="Duvida">Duvida</option>
+                    <option value="Outros">Outros</option>
+                </select>
             </div>
             <div>
                 <label for="mensagem">Mensagem</label>
-                <input type="text" id="mensagem">
+                <textarea name="mensagem" id="mensagem"></textarea>
             </div>
-            <div>
+            <div class="container-btn">
                 <input type="submit" value="Enviar"> 
-            </div>
-            <div>
                 <input type="submit" value="Limpar"> 
             </div>
         </form>

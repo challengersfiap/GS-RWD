@@ -6,6 +6,38 @@
 
 .banner-index {
     background-image: url("../img/bannerIndex.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-index p{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.banner span {
+    font-size: 4rem;
+}
+
+.fome {
+    color: red;
+}
+
+.aidshare {
+    color: var(--secundaria);
+}
+
+.banner-index a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 4rem;
+    background-color: rgba(0, 173, 181, 0.3);
+    padding: 20px 60px;
+    border-radius: 20px;
+    border: 2px solid var(--secundaria);
 }
 
 .banner-agro {
