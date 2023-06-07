@@ -18,9 +18,16 @@
     margin-bottom: 40px;
 }
 
-.banner-index span {
+.banner span {
     font-size: 4rem;
+}
+
+.fome {
     color: red;
+}
+
+.aidshare {
+    color: var(--secundaria);
 }
 
 .banner-index a{
