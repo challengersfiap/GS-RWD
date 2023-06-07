@@ -1,0 +1,38 @@
+.conteudo-cult {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.conteudo-cult h2 {
+    margin: 20px 0;
+}
+
+.conteudo-cult p{
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.container-cult {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+.container-cult div h3 {
+    color: var(--secundaria);
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.container-cult div {
+    width: 300px;
+
+    text-align: center;
+}
