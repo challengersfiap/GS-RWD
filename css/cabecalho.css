@@ -27,10 +27,10 @@
     font-weight: 700;
 }
 
-.cabecalho ul li:nth-child(-n+3){
+.cabecalho ul li:nth-child(-n+4){
     margin-right: 10px; 
 }
 
-.cabecalho ul li:nth-child(-n+3)::after{
+.cabecalho ul li:nth-child(-n+4)::after{
     content: "|";
 }

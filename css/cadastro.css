@@ -27,7 +27,7 @@ body {
     margin-bottom: 5px;
 }
 
-.formulario input[type="text"],.formulario input[type="date"] {
+.formulario input[type="text"],.formulario input[type="date"],.formulario input[type="password"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
@@ -70,4 +70,9 @@ body {
     justify-content: center;
     align-items: center;
     gap: 25%;
+}
+
+.footer-cadastro {
+    position: fixed;
+    bottom: 0;
 }
