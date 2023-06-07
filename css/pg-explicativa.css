@@ -1,4 +1,6 @@
-.banner-agro {
+/* Criei esse arquivo para ele estilizar a parte de cima (como contém um padrão) das páginas de cultivo, ia e agicultura sustentavel */
+
+.banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,18 +10,18 @@
     color: white;
 }
   
-  .banner-agro h2 {
+.banner h2 {
     font-size: 45px;
     margin-bottom: 10px;
 }
   
-  .banner-agro p {
+.banner p {
     font-size: 24px;
     margin-top: 6%;
     margin-left: 20%;
     margin-right: 20%;
 }
   
-  .banner-agro > *:last-child {
-    margin-bottom: 10px; /* Adiciona um espaçamento inferior */
+.banner > *:last-child {
+    margin-bottom: 10px;
 }
